@@ -30,7 +30,7 @@ p {
 
 /***********************************class SELECTOR*********************************/
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /************navbar ********/
@@ -60,6 +60,8 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right : 25%;
 }
 
 .feature-box {
@@ -104,6 +106,9 @@ p {
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
 }
 
 
