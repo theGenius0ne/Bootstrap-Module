@@ -10,6 +10,13 @@ h1 {
   line-height: 1.5;
 }
 
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: "Montserrat";
   font-weight: 900;
@@ -62,13 +69,32 @@ p {
 
 .feature-icon{
     color: #ef8172;
-    margin: 5%;
+    margin: 3%;
 }
 
 .feature-icon:hover{
     color: #ff4c68;
 }
 
+.testimonial-image{
+  width : 20%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.press-logo{
+  width: 15%;
+  margin : 0 20px 15px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+  text-align: center;
+}
 
 /***********************************ID SELECTOR*********************************/
 #title {
@@ -78,4 +104,21 @@ p {
 
 #features {
   padding: 7% 15%;
+}
+
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing{
+  padding : 75px;
 }
